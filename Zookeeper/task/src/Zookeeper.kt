@@ -20,5 +20,5 @@ Look at that! Our little camel is sunbathing!"""
 
 
 fun main() {
-    // write your code here
+    println(camel)
 }
