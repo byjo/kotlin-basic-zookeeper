@@ -1,9 +1,10 @@
-on: push
 name: Slack Notification
+on: push
 jobs:
   slackNotification:
     name: Slack Notification
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - uses: actions/checkout@v2
       - name: Slack Notify
